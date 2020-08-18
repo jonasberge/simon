@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<root>
+{% block root %}
+
+  <content>
+    {% block content -%}
+    {%- endblock %}
+  </content>
+
+{% if self.embed() %}
+
+  <embed>
+    {% block embed -%}
+    {%- endblock %}
+  </embed>
+
+{% elif self.embeds() %}
+
+  <embeds>
+    {% block embeds -%}
+    {%- endblock %}
+  </embeds>
+
+{% endif %}
+
+{% endblock %}
+</root>

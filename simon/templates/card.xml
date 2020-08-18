@@ -1,0 +1,49 @@
+{% extends base %}
+{% block embed %}
+
+<author>
+  <icon_url>https://cdn.discordapp.com/embed/avatars/0.png</icon_url>
+  <name>author</name>
+  <url>https://discordapp.com</url>
+</author>
+<color>{{ card.color }}</color>
+<description>description</description>
+<fields>
+  <element>
+    <name>&#x1f914;</name>
+    <value>some of these properties have certain limits...</value>
+  </element>
+  <element>
+    <name>&#x1f631;</name>
+    <value>try exceeding some of them!</value>
+  </element>
+  <element>
+    <name>&#x1f644;</name>
+    <value>value</value>
+  </element>
+  <element>
+    <inline>true</inline>
+    <name>&lt;:thonkang:219069250692841473&gt;</name>
+    <value>these last two</value>
+  </element>
+  <element>
+    <inline>true</inline>
+    <name>&lt;:thonkang:219069250692841473&gt;</name>
+    <value>are inline fields</value>
+  </element>
+</fields>
+<footer>
+  <icon_url>https://cdn.discordapp.com/embed/avatars/0.png</icon_url>
+  <text>footer text</text>
+</footer>
+<image>
+  <url>https://cdn.discordapp.com/embed/avatars/0.png</url>
+</image>
+<thumbnail>
+  <url>https://cdn.discordapp.com/embed/avatars/0.png</url>
+</thumbnail>
+<timestamp>2020-08-18T13:48:21.772Z</timestamp>
+<title>title ~~(did you know you can have markdown here too?)~~</title>
+<url>https://discordapp.com</url>
+
+{% endblock %}
