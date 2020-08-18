@@ -8,7 +8,7 @@ A bot for searching Yu-Gi-Oh! cards.
 
 """
 
-__title__ = 'simonbot'
+__title__ = 'simon'
 __author__ = 'Jonas van den Berg'
 __license__ = 'MIT'
 __copyright__ = 'Copyright 2020 Jonas van den Berg'
