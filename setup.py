@@ -24,7 +24,9 @@ setup(
     python_requires='>=3.8',
     install_requires=[
         'discord.py~=1.3',
-        'aioredis~=1.3'
+        'aioredis~=1.3',
+        'ZODB~=5.6',
+        'RelStorage[postgresql]~=3.2'
     ],
     extras_require={
         'dev': [
