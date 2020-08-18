@@ -7,7 +7,7 @@ indent_style = space
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.{json,yaml,yml}]
+[*.{json,yaml,yml,xml}]
 indent_size = 2
 
 [{Makefile, *.sql}]
