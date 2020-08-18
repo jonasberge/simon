@@ -3,6 +3,9 @@ Simon Discord Bot
 
 A bot for searching Yu-Gi-Oh! cards.
 
+:copyright: (c) 2020 Jonas van den Berg
+:license: MIT, see LICENSE for details.
+
 """
 
 __title__ = 'simonbot'
