@@ -13,7 +13,7 @@ upgrade:
 	pip install -r requirements.txt
 
 install:
-	pip install --editable .[dev]
+	pip install --no-deps --editable .[dev]
 	pip install -r requirements.txt
 
 simon:
