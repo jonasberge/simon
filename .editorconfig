@@ -10,7 +10,7 @@ trim_trailing_whitespace = true
 [*.{json,yaml,yml,xml}]
 indent_size = 2
 
-[{Makefile, *.sql}]
+[{Makefile,*.sql}]
 indent_style = tab
 
 # trailing whitespace is used for line breaks
