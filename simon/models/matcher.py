@@ -105,5 +105,6 @@ def set_sqlite_pragma(connection, *args):
     if type(connection) is sqlite3.Connection:
         cursor = connection.cursor()
         cursor.execute(" PRAGMA foreign_keys = ON ")
+        # TODO: enable WAL journaling mode where it's actually needed.
         cursor.execute(" PRAGMA journal_mode = WAL ")
         cursor.close()
